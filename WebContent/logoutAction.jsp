@@ -7,8 +7,11 @@
 <title>MOTTIP JSP 게시판 포트폴리오</title>
 </head>
 <body>
+	<%
+		session.invalidate();
+	%>
 	<script>
-		location.href = 'main.jsp'
+		location.href = 'main.jsp';
 	</script>
 </body>
 </html>
